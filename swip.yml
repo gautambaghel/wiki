@@ -35,7 +35,7 @@ capture:
     wars:
       extensions: [war]
       files:
-      - directory: /workspace/target
+      - directory: ${project.projectDir}
 install:
   coverity:
     version: latest
